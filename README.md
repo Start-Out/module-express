@@ -1,4 +1,4 @@
-# so.module-express
+# [Module](https://github.com/Start-Out/golden-paths/wiki/Concepts#module): Express
 
 ![Static Badge](https://img.shields.io/badge/Start-Out-blue)
 
