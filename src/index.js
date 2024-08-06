@@ -94,6 +94,10 @@ app.get("*", function (req, res)  {
  *   ##SERVER INITIALIZATION##
  ********************************************/
 
+/**
+ * Uncomment this section favor of the below to use secured 
+ * HTTP instead of HTTPS (replace key and cert as needed)
+ *
 https
     .createServer(
         {
@@ -105,12 +109,8 @@ https
     console.log("SERVER: I'm listening https://localhost:"+port)
 })
 
-/**
- * Uncomment this section and remove the above to use unsecured 
- * HTTP instead of HTTPS:
- *
+ */
  
 app.listen(port, undefined,function () {
     console.log("SERVER: I'm listening http://localhost:"+port)
 })
- */
