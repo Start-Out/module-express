@@ -7,8 +7,7 @@ A boilerplate/starter project that's barely one step above prototyping with `ind
 # Quick Start
 
 > ## NOTE: HTTPS
-> The default configuration expects CA Certificates (`./src/out/localhost.key` and `./src/out/localhost.crt`). If you just need
-> an unsecured connection, see the end of `./src/index.js` and comment out the `https.createServer()` in favor of `app.listen()`.
+> The default configuration is unsecured. If you need a secured connection, see end of `index.js` which expects CA Certificates (`./src/out/localhost.key` and `./src/out/localhost.crt`).
 
 # Run your tiny server
 
